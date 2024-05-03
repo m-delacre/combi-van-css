@@ -588,7 +588,8 @@ body {
   z-index: 1;
   border: 1px solid #1C3144;
   animation: smoke 4s infinite linear;
-  animation-delay: 5s;
+  transform: translateX(50px);
+  animation-delay: 2s;
 }
 
 .smoke3 {
@@ -599,12 +600,13 @@ body {
   border-bottom-left-radius: 80%;
   border-bottom-right-radius: 90%;
   background: radial-gradient(circle, rgba(255,255,255,1) 47%, rgba(221,221,221,1) 100%);position: absolute;
-  left: -30px;
+  left: -35px;
   bottom: 10px;
   z-index: 1;
   border: 1px solid #1C3144;
   animation: smoke 4s infinite linear;
-  animation-delay: 2s;
+  transform: translateX(50px);
+  animation-delay: 1s;
 }
 
 @keyframes smoke {
